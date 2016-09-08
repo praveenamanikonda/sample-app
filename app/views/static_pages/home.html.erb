@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <h1>Home page</h1>
-  <p>This is sample applications home page</p>
+  <div class="center jumbotron">
+    <h1>Welcome !!</h1>
+    <h1>This the Home page</h1>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+  <%= link_to image_tag("rails.png", alt: "Rails logo"),'http://rubyonrails.org/' %>
 </html>
 
